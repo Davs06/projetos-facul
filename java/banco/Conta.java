@@ -9,15 +9,15 @@ public class Conta {
 // geters =========================================================
     
     public double getSaldo (){
-        return saldo;
+        return this.saldo;
     }
     
     public double getSaque (){
-        return saque;
+        return this.saque;
     }
     
     public double getDeposito (){
-        return deposito;
+        return this.deposito;
     }
 // seters =================================================
     
@@ -26,7 +26,7 @@ public class Conta {
     }
     
     public void setSaque (double vSaque){
-        saque = vSaque; 
+        saldo = saldo - vSaque; 
     }
     
     public void setDeposito (double vDeposito){
@@ -35,11 +35,11 @@ public class Conta {
     
  //metodos ======================
 
-    public boolean sacar ( double vlDoSaque) {
+   /* public boolean sacar ( double vlDoSaque) {
         if (saque <= this.saldo * 0.20) {            
             this.saldo = this.saldo - vlDoSaque;
         } 
         return false; 
     }
-
+*/
 }

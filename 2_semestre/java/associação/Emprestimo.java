@@ -4,7 +4,7 @@ public class Emprestimo{
     String dataEntregareal;
     int situacao;
     Usuario usuario = new Usuario();
-    Exemplar exemplar;
+    Exemplar exemplar = new Exemplar();
 
     public Usuario getUsuario(){
         return usuario;

@@ -1,6 +1,6 @@
 public class Emprestimo{
     String dataEmprestimo = "20/05" ;
-    String dataPrevisaoDevolucao;
+    String dataPrevisaoDevolucao = "20/06";
     String dataEntregareal;
     int situacao;
     Usuario usuario = new Usuario();

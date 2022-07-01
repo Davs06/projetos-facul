@@ -1,43 +1,36 @@
-package banco;
-
-public class Cliente {
+public class Cliente{
     
-    private String nome;
-    private int conta = 0;
-    private int agencia = 0;
+    protected String nome;
+    protected int conta = 0;
+    protected int agencia = 0;
+    Conta cnta = new Conta(0,0,0);
     
-// geters =================
+    
+// geters ***********************************************
 
-    public String getNome (){
-        return nome;
+    public Conta getCnta(){return cnta;}
+    
+    public String getNome (){return this.nome;}
+    
+    public int getConta (){return this.conta;}
+    
+    public int getAgencia (){return this.agencia;}
+    
+// seters **************************************************
+
+    public void setCnta (Conta cnta){
+        this.cnta = cnta;
     }
     
-    public int getConta (){
-        return conta;
-    }
-    
-    public int getAgencia (){
-        return agencia;
-    }
-
-// seters ========================
-
     public void setNome (String vNome){
-        nome = vNome;
+        this.nome = vNome;
     }
     
     public void setConta (int vConta){
-        conta = vConta;
+        this.conta = vConta;
     }
     
     public void setAgencia (int vAgencia){
-        agencia = vAgencia; 
+        this.agencia = vAgencia; 
     }
-    
 }
-
-
-
-
-    
-

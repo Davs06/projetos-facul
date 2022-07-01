@@ -1,45 +1,43 @@
-package banco;
-
-public class Conta {
+public class Conta{
+    
     private double saldo = 0.0;
     private double saque = 0.0;
     private double deposito = 0.0;
     
     
-// geters =========================================================
+// geters **************************************
+
+    public double getSaldo (){return this.saldo;}
     
-    public double getSaldo (){
-        return this.saldo;
-    }
+    public double getSaque (){return this.saque;}
     
-    public double getSaque (){
-        return this.saque;
-    }
+    public double getDeposito (){return this.deposito;}
     
-    public double getDeposito (){
-        return this.deposito;
-    }
-// seters =================================================
     
+// seters ************************************
+
     public void setSaldo (double vSaldo){
-        saldo = vSaldo; 
+        
+        this.saldo = vSaldo;
     }
     
     public void setSaque (double vSaque){
-        saldo = saldo - vSaque; 
+        
+        this.saldo = this.saque - vSaque;
     }
     
     public void setDeposito (double vDeposito){
-        saldo = saldo + vDeposito; 
+        
+        this.saldo = this.saldo + vDeposito;
     }
-    
- //metodos ======================
 
-   /* public boolean sacar ( double vlDoSaque) {
-        if (saque <= this.saldo * 0.20) {            
-            this.saldo = this.saldo - vlDoSaque;
-        } 
-        return false; 
+// parte da herança ***************************   
+
+    public Conta (double saldo, double saque, double deposito){
+        
+        this.saldo = saldo;
+        this.saque = saque;
+        this.deposito = deposito;
+        
     }
-*/
 }

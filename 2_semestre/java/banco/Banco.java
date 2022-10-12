@@ -8,6 +8,7 @@ public class Banco{
 		
 		// instanciando classes
         Cliente cln = new Cliente();
+        Cliente cln1 = new Cliente();
         Scanner sc1 = new Scanner(System.in);
         
         
@@ -15,6 +16,7 @@ public class Banco{
         // menu de acesso
         System.out.println("Entre com seu nome");
         cln.setNome(sc1.next());
+        cln1.setNome(sc1.next());
         System.out.println("Entre com sua agencia 'sem o digito'");
         cln.setAgencia(sc1.nextInt());
         System.out.println("Entre com sua conta 'sem o digito'");
@@ -55,13 +57,13 @@ public class Banco{
                         cln.cnta.setSaque(0) ; break;
                     }
                 
-               /* case 4:
-                    int invest = 0;
-                    System.out.println("Qual tipo de Investimento você deseja realiar ?");
-                    System.out.println("Tesouro direto R$ 20,00 - Opção [1]");
-                    System.out.println("Bolsa de valores R$ 50,00 - Opção [2]");
-                    invest = sc1.nextInt();
-                    }*/
+                case 4:
+                    // int invest = 0;
+                    // System.out.println("Qual tipo de Investimento você deseja realiar ?");
+                    // System.out.println("Tesouro direto R$ 20,00 - Opção [1]");
+                    // System.out.println("Bolsa de valores R$ 50,00 - Opção [2]");
+                    // invest = sc1.nextInt();
+                    // }
                     
                 
                 case 5:

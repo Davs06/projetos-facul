@@ -1,0 +1,96 @@
+* {
+
+    margin: 0, 0, 0, 0, ;
+    padding: 0, 0, 0, 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image:url("../assets/vintage1.jpeg");
+}
+
+h1{
+    text-align: center;
+    border: 2px solid black;
+    background-color: #deeeecda ;
+    max-width: 55%;
+    width: 70%;
+    padding: 0,5%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 3%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 0 #00000080;
+}
+
+
+
+form h2{
+    text-align: center;
+}
+
+#form{
+
+    background-color: #deeeecda ;
+    max-width: 600px;
+    width: 70%;
+    padding: 5%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 0 #00000080;
+
+}
+
+form input[type=text],
+form input[type=tel]{
+
+    width: 90%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    outline: none;
+    font-size: 16px;
+    background-color:#ffffff90;
+
+}
+
+form label{
+
+    width: 90%;
+    height: 30px;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    outline: none;
+    font-size: 16px;
+
+
+}
+
+form input[type=submit]{
+
+    background-color: rgb(247, 247, 247);
+    width: 30%;
+    border-radius: 20px;
+    border: 0;
+    transition: 1s;
+    cursor: pointer ;
+    padding: 10px;
+    
+}
+
+form input[type=submit]:hover {
+
+    background-color: rgba(182, 182, 182, 0.637);
+
+}

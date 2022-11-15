@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/icon">
+    <link rel="icon" href="./assets/icon.jpeg">
 
     <link rel="stylesheet" href="./css/cliente.css">
 
@@ -15,26 +15,28 @@
 </head>
 
 <body>
-
+    
     <h1>Davs's mecanica</h1>
 
 
     <form id="form">
-
+        
         <h2>Cadastro de cliente</h2>
-
+        
         <input type="text" name="Nome" id="nome" placeholder="Nome Completo" required>
-        <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+        <input type="tel" name="telefone" id="telefone" placeholder="Telefone"  pattern="^\(\\d{2})\d{4,5}-\d{4}$" required>
         <label for="telefone"> (00)00000-0000</label>
         <input type="text" name="cpf" id="cpf" placeholder="CPF" pattern="^\d{3}.\d{3}.\d{3}-\d{2}$" required>
         <label for="cpf">000.000.000-00</label>
-
+        
         <button id="acao">Enviar</button>
-
+        
     </form>
-
-    <script href="./js/cliente.js"></script>
+    
+    
+    
+    <script src="./js/cliente.js" ></script>
 </body>
 
 </html>
-<!-- pattern="^\(\\d{2})\d{4,5}-\d{4}$" -->
+<!--  -->

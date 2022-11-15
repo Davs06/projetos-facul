@@ -10,13 +10,16 @@ let btn = document.querySelector('#acao').addEventListener('click', (e) => {
 
     listDataCliente.push({
 
-        nome: nome.value,
-        telefone: telefone.value,
-        cpf: cpf.value
+    nome: nome.value,
+    telefone: telefone.value,
+    cpf: cpf.value
     })
 
     localStorage.setItem('listDataCliente', JSON.stringify(listDataCliente))
 
 
-    window.location.href = '///home/davs-kenoby/studspace/projetos-facul/3-semestre/mecanica/front-end/veiculo.html'
+    window.location.href = "file:///Users/davs/Documents/projetos/Mecanica/veiculo.html"
+
+    e.preventDefault();
+    
 })

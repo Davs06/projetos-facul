@@ -78,7 +78,7 @@ form label{
 
 }
 
-form input[type=submit]{
+form button {
 
     background-color: rgb(247, 247, 247);
     width: 30%;
@@ -91,7 +91,7 @@ form input[type=submit]{
     
 }
 
-form input[type=submit]:hover {
+form button :hover {
 
     background-color: rgba(182, 182, 182, 0.637);
 

@@ -18,5 +18,5 @@ let btn = document.querySelector('#acao').addEventListener('click', (e) => {
     localStorage.setItem('listDataCliente', JSON.stringify(listDataCliente))
 
 
-    window.location.href = '///home/davs-kenoby/studspace/projetos-facul/3-semestre/mecanica/front-end/veiculo.html'
+    window.location.href ="///home/davs-kenoby/studspace/projetos-facul/3-semestre/mecanica/front-end/veiculo.html"
 })

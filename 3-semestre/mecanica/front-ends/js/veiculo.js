@@ -23,7 +23,7 @@ let marca  = document.querySelector('#marca')
         localStorage.setItem('listDataVeiculo', JSON.stringify(listDataVeiculo))
     
     
-        window.location.href = "file:///Users/davs/Documents/projetos/Mecanica/relato.html"
+        window.location.href = "file:///Users/davs/studspace/projetos-facul/3-semestre/mecanica/front-ends/relato.html"
     
         e.preventDefault();
         

@@ -10,6 +10,10 @@ body{
 
 }
 
+form h2{
+    text-align: center;
+}
+
 h1{
     text-align: center;
     border: 2px solid black;
@@ -24,4 +28,48 @@ h1{
     transform: translate(-50%, -50%);
     border-radius: 10px;
     box-shadow: 3px 3px 1px 0 #00000080;
+}
+
+
+form{
+
+    background-color: #deeeecda ;
+    max-width: 600px;
+    width: 70%;
+    padding: 5%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 0 #00000080;
+
+}
+
+form input[type=number]{
+
+    width: 90%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    outline: none;
+    font-size: 16px;
+    background-color:#ffffff90;
+
+}
+
+form label{
+
+    width: 90%;
+    height: 30px;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    outline: none;
+    font-size: 25px;
+
 }

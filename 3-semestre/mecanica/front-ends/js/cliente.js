@@ -18,7 +18,11 @@ let btn = document.querySelector('#acao').addEventListener('click', (e) => {
     // localStorage.setItem('listDataCliente', JSON.stringify(listDataCliente))
 
 
+<<<<<<< HEAD
     window.location.href = "veiculo.php"
+=======
+    window.location.href = "file:///Users/davs/studspace/projetos-facul/3-semestre/mecanica/front-ends/veiculo.html"
+>>>>>>> origin
 
     e.preventDefault();
     

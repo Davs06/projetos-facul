@@ -23,7 +23,11 @@
         // localStorage.setItem('listDataVeiculo', JSON.stringify(listDataVeiculo))
     
     
+<<<<<<< HEAD
         window.location.href = "orcamento.php"
+=======
+        window.location.href = "file:///Users/davs/studspace/projetos-facul/3-semestre/mecanica/front-ends/relato.html"
+>>>>>>> origin
     
         e.preventDefault();
         

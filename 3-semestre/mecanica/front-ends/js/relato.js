@@ -14,7 +14,7 @@ let btn = document.querySelector('#acao').addEventListener('click', (e) => {
     localStorage.setItem('listDataRelato', JSON.stringify(listDataRelato))
 
 
-    window.location.href = "file:///Users/davs/Documents/projetos/Mecanica/orcamento.html"
+    window.location.href = "file:///home/davs-kenoby/studspace/projetos-facul/3-semestre/mecanica/front-ends/orcamento.html"
 
     e.preventDefault();
     

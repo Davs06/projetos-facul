@@ -6,19 +6,19 @@ let cpf = document.querySelector('#cpf')
 let btn = document.querySelector('#acao').addEventListener('click', (e) => {
 
 
-    let listDataCliente = JSON.parse(localStorage.getItem('listDataCliente') || '[]')
+    // let listDataCliente = JSON.parse(localStorage.getItem('listDataCliente') || '[]')
 
-    listDataCliente.push({
+    // listDataCliente.push({
 
-    nome: nome.value,
-    telefone: telefone.value,
-    cpf: cpf.value
-    })
+    // nome: nome.value,
+    // telefone: telefone.value,
+    // cpf: cpf.value
+    // })
 
-    localStorage.setItem('listDataCliente', JSON.stringify(listDataCliente))
+    // localStorage.setItem('listDataCliente', JSON.stringify(listDataCliente))
 
 
-    window.location.href = "file:///Users/davs/Documents/projetos/Mecanica/veiculo.html"
+    window.location.href = "veiculo.php"
 
     e.preventDefault();
     

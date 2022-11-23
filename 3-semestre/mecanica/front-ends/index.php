@@ -14,13 +14,16 @@
 </head>
 <body>
 
+<nav>
+
     <h1>Davs's mecanica</h1>
+</nav>
 
 
     <div>
         <h2>O que deseja...?</h2>
         <button id="acao1" >Cadastrar</button>
-        <button id="acao2" >Veiculos e orçamentos </button>
+        <button id="acao2" >Veiculos e Clientes </button>
     </div>
 
     <script src="./js/inicio.js" ></script>

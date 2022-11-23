@@ -26,11 +26,11 @@ h1{
     box-shadow: 3px 3px 1px 0 #00000080;
 }
 
-form h2{
+div h2{
     text-align: center;
 }
 
-form{
+div{
 
     background-color: #deeeecda ;
     max-width: 600px;
@@ -39,10 +39,11 @@ form{
     position: absolute;
     left: 50%;
     right: 50%;
-    top: 50%;
+    top: 80%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
     box-shadow: 3px 3px 1px 0 #00000080;
+    font-size: 20px
 
 }
 

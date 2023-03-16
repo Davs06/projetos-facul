@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Formulario 2</h1>
+    <hr>
+
+    <form  method="post">
+        <label for="txt_nome">Entre com seu nome</label><br>
+        <input type="text" name="txt_nome" placeholder="Digite seu nome">
+
+        <br><br>
+
+        <label for="txt_dt-nasc">Entre com sua data de nascimento</label><br>
+        <input type="text" name="txt_dt-nasc" placeholder="Sua data de nascimento">
+
+        <br><br>
+
+        <label for="cbo-pais">Qual pais você reside</label> <br>
+        <select name="cbo-pais" >
+            <option value="" selected >Select</option>
+            <option value="br">Brazil</option>
+            <option value="eua">United States</option>
+            <option value="cnd">Canada</option>
+            <option value="esp">Spain</option>
+        </select>
+
+        <br><br>
+
+        <label for="cbo-uf">Qual estado você mora</label> <br>
+        <select name="cbo-uf" >
+            <option value="" selected >Select</option>
+            <option value="sp">São Paulo</option>
+            <option value="sc">Santa Catarina </option>
+            <option value="ce">Ceara</option>
+            <option value="pb">Pernambuco</option>
+        </select>
+
+        <br><br>
+
+        <label for="rd_sex">Genero</label><br>
+        <input type="radio" name="rd_sex" value="Masculino"> Masculino <br>
+        <input type="radio" name="rd_sex" value="Feminino" > Feminino
+
+        <br><br>
+
+        <label for="chk_hobbies">Qual seus hobbies </label><br>
+        <input type="checkbox" name="chk_hobbies" value="esportes">Esportes<br>
+        <input type="checkbox" name="chk_hobbies" value="literatura">Literatura<br>
+        <input type="checkbox" name="chk_hobbies" value="games">Games<br>
+
+        <br><br>
+        <label for="txt_inf-add">Informações adicionais</label><br>
+        <textarea name="txt_inf-add"  cols="30" rows="10" placeholder="Digite aqui... "></textarea>
+    </form>
+
+    
+</body>
+</html>

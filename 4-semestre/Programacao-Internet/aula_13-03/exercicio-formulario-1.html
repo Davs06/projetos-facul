@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Formulario 1</h1>
+    <hr>
+
+
+    <form action="" method="post">
+        <label for="txt_nome">Entre com seu nome</label> <br>
+        <input type="text" name="txt_nome" placeholder="Digite seu nome"> <br> <br>
+        
+        <label for="cbo_idade">Entre com sua idade</label> <br>
+        <select name="cbo_idade" placeholder="Entre com sua idade">
+            <option value="" selected>Select</option>
+            <option value="0-18">Entre 0 e 18</option>
+            <option value="19-25">Entre 19 e 25</option>
+            <option value="">Entre 26 e 35</option>
+            <option value="36 ou mais">36 ou mais</option>
+        </select>
+
+        <br><br>
+
+        <label for="rd_sex">Genero</label><br>
+        <input type="radio" name="rd_sex" value="Masculino"> Masculino <br>
+        <input type="radio" name="rd_sex" value="Feminino" > Feminino
+
+        <br><br>
+
+        <label for="txt_email">Entre com seu e-mail</label> <br>
+        <input type="email" name="txt_email" placeholder="Digite seu email">
+
+        <br><br>
+
+        <label for="txt_observacao">Observações</label> <br>
+        <textarea name="txt_observacao"  cols="40" rows="7" maxlength="80"></textarea>
+    </form>
+    
+</body>
+</html>
